@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Techwise <a name="about-project"></a>
+# 📖 finish mobile version <a name="about-project"></a>
 
 > This is my "setup and mobile first" mini project. In which i used Html5, Firebox and did the linters configuration.
 
@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-comingsoon
+coming soon
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

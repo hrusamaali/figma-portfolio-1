@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0px ;
+  padding: 0;
 }
 
 main {
@@ -109,8 +109,8 @@ nav {
 }
 
 .cannopy {
-  color: #172B4D;
-  font-family: 'Poppins';
+  color: #172b4d;
+  font-family: 'Poppins' Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -136,20 +136,20 @@ nav {
 }
 
 .webdev-languages-lists {
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
 }
 
 .see-project {
   display: flex;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   border-radius: 8px;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
   gap: 10px;
-  background-color: #fff ;
+  background-color: #fff;
   color: #6070ff;
   margin-top: 12px;
 }
@@ -166,12 +166,12 @@ nav {
 
 .my-resume {
   display: flex;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   border-radius: 8px;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
-  background-color: #fff ;
+  background-color: #fff;
   color: #6070ff;
   margin-left: 24px;
 }
@@ -179,11 +179,8 @@ nav {
 .heading {
   display: flex;
   font-size: 20px;
-  /* font-weight: 500; */
   line-height: 24px;
   margin-left: 36px;
- 
-
 }
 
 .web-lang-title {
@@ -191,14 +188,14 @@ nav {
   flex-direction: column;
   list-style: none;
   gap: 12px;
- 
 }
+
 .web-lang-title-list {
   display: flex;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   gap: 12px;
   border-radius: 8px;
-  padding: 12px ;
+  padding: 12px;
   margin-right: 5%;
 }
 
@@ -207,7 +204,7 @@ nav {
   margin-left: 36px;
   gap: 150px;
   font-size: 20px;
-  border-bottom: solid #DFE1E6 1px;
+  border-bottom: solid #dfe1e6 1px;
   padding-bottom: 7%;
   margin-bottom: 0;
   margin-right: 5%;
@@ -219,7 +216,7 @@ nav {
   gap: 210px;
   font-size: 20px;
   margin-top: 8%;
-  border-bottom:solid #DFE1E6 1px;
+  border-bottom: solid #dfe1e6 1px;
   padding-bottom: 7%;
   margin-bottom: 0;
   margin-right: 5%;

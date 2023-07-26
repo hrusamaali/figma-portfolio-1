@@ -84,8 +84,7 @@ nav {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(1fr);
-  
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .cards {
@@ -280,6 +279,7 @@ textarea {
 
 .end-line {
   display: flex;
+  align-items: center;
   margin-left: 30%;
   margin-bottom: 3%;
 }

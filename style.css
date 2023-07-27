@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 body {
   background-color: #e5e5e5;
   padding: 0;
@@ -9,70 +11,70 @@ a {
 }
 
 .hero {
+  background-color: #fff;
   background-image: url(assets/background-shapes.png);
-  background-size: cover;
-  background-repeat: 100%;
+  background-size: calc(100%);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 0;
+  border-bottom: 1px solid white;
+  border-bottom-left-radius: 18%;
 }
 
-main {
-  background-color: #fff;
-  height: 130vh;
-  border-radius: 0 0 0 15%;
+#last-sec {
+  height: 50vh;
 }
 
 header {
-  padding-top: 16px;
+  padding-top: 7%;
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 nav {
-  padding-right: 32px;
+  padding: 0 5% 0 0;
 }
 
-.my-logo a {
+.my-logo {
   color: #6070ff;
-  font-family: 'poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  font-size: 18px;
-  line-height: 20px;
-  padding-left: 30px;
-  text-decoration: none;
+  font-size: 1.5rem;
+  padding-left: 5%;
+  margin-top: -1.5%;
+}
+
+#intro-sec {
+  width: 85%;
+  margin-left: 8%;
+  margin-top: 15%;
 }
 
 .greeting {
-  color: #172b4d;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
+  color: #172B4D;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  margin-top: 114px;
-  padding-left: 32px;
+  /* margin-top: 114px; */
+  /* padding-left: 32px; */
 }
 
 .job-description {
   color: #344563;
-  font-family: 'Poppins', arial, helvetica, sans-serif;
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 32px;
+  /* padding-left: 5%; */
 }
 
 .connect-link {
   color: #7f8cff;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  padding-left: 34px;
+  margin-left: 10%;
 }
 
 .social-media-links {
@@ -103,8 +105,7 @@ nav {
 }
 
 .card-title {
-  font-family: 'Poppins' Arial, Helvetica, sans-serif;
-  font-style: normal;
+  font-family: 'Poppins',serif Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -113,9 +114,8 @@ nav {
 
 .cannopy {
   color: #172b4d;
-  font-family: 'Poppins' Arial, Helvetica, sans-serif;
+  font-family: 'Poppins',serif Arial, Helvetica, sans-serif;
   font-size: 13px;
-  font-style: normal;
   font-weight: 600;
   line-height: 16px;
 }
@@ -126,7 +126,7 @@ nav {
 }
 
 .card-contnt {
-  font-family: 'Poppins' Arial, Helvetica, sans-serif;
+  font-family: 'Poppins',serif Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
 }
@@ -240,7 +240,7 @@ nav {
   justify-content: center;
   color: #fff;
   margin-top: 30%;
-  font-family: 'poppins' Arial, Helvetica, sans-serif;
+  font-family: 'Poppins',serif Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 

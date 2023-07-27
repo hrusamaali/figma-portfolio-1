@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hero {
   background-image: url(assets/background-shapes.png);
   background-size: cover;
@@ -225,16 +229,17 @@ nav {
   background-image: url(./assets/contact\ form\ shapes-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 1px solid #6070ff;
   background-color: #6070ff;
-  border-radius: 15% 0 0 0;
-  margin-top: 176px;
+  border-radius: 10% 0 0 0;
+  margin-top: 50%;
 }
 
 .contact-me {
   display: flex;
   justify-content: center;
   color: #fff;
-  margin-top: 160px;
+  margin-top: 30%;
   font-family: 'poppins' Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
@@ -255,7 +260,13 @@ nav {
   color: #172b4d;
 }
 
-input {
+.box1 {
+  padding: 2%;
+  border-radius: 8px;
+  border: solid #cfd8dc 1px;
+}
+
+.box2 {
   padding: 2%;
   border-radius: 8px;
   border: solid #cfd8dc 1px;
@@ -268,7 +279,6 @@ textarea {
 }
 
 .get-in-touch {
-  margin-left: 27px;
   padding: 12px 16px;
   font-size: 17px;
   border-radius: 8px;
@@ -276,6 +286,8 @@ textarea {
   color: #6070ff;
   line-height: 24px;
   margin-bottom: 10%;
+  margin-top: 5%;
+  width: 50%;
 }
 
 .end-line {
